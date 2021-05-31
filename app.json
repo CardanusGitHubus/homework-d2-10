@@ -1,0 +1,6 @@
+{
+  "name": "Python on Heroku",
+  "description": "Skillfactory Homework D2.10",
+  "image": "heroku/python",
+  "keywords": ["python", "bottle" ],
+}
