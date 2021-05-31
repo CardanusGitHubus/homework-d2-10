@@ -31,7 +31,7 @@ def main_page():
 @app.route("/success")
 def success_response():
     logger.info(request.headers.get("User-Agent"))
-    return "success response"
+    return "test that automatic deploy from github to heroku works"
 
 
 @app.route("/fail")
