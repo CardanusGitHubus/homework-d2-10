@@ -7,7 +7,7 @@ from bottle import Bottle, route, run, request
 from sentry_sdk.integrations.bottle import BottleIntegration
 
 sentry_sdk.init(
-    dsn=auth_params.SENTRY_DSN,  # !!! вставляем данные вашего проекта sentry !!!
+    dsn=auth_params.SENTRY_DSN,
     integrations=[BottleIntegration()]
 )
 
